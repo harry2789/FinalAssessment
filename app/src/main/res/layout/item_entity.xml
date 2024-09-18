@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView for Property 1 -->
+    <TextView
+        android:id="@+id/property1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Property 1"
+        android:textSize="18sp"/>
+
+    <!-- TextView for Property 2 -->
+    <TextView
+        android:id="@+id/property2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Property 2"
+        android:textSize="14sp"/>
+
+    <!-- Optional: TextView for Description (can be hidden or shown) -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="12sp"
+        android:visibility="gone"/>  <!-- Initially hidden; only show if needed -->
+
+</LinearLayout>
